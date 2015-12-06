@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";   
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+    <link href="@Url.Content("~/Content/Site.css")"
+          rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Training exercise</b><br />
+        <br />
+
+        <div id="clear"></div>  
+
+        <div id="container">
+            <div id="center_container">
+                <div id="sidebar">
+                    <div id="title"><h3>Quick Links</h3></div>
+                    <ul>
+                        <li>New </li>
+                        <li>Database Listing </li>
+
+                    </ul>
+                </div> 
+
+                <div id="content">
+                    <h2>Employee List</h2>
+                    <h3>Listing</h3>
+                    <table class="tg">
+                        <tr>
+                            <th class="tg-yw4l">Employee Code</th>
+                            <th class="tg-yw4l">Employee Name</th>
+                            <th class="tg-yw4l">Contact Number </th>
+                            <th class="tg-yw4l">Marital Status</th>
+                            <th class="tg-yw4l">Email</th>
+                        </tr>
+                        <tr>
+                            <td class="tg-b7b8"><a href="@Url.Action("exercise2", "Home")";>EC01</a></td>
+                            <td class="tg-b7b8">EMP1</td>
+                            <td class="tg-b7b8">9878657891</td>
+                            <td class="tg-b7b8">Yes</td>
+                            <td class="tg-b7b8">acbs1@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-yw4l">EC02</td>
+                            <td class="tg-yw4l">EMP2</td>
+                            <td class="tg-yw4l"></td>
+                            <td class="tg-yw4l">No</td>
+                            <td class="tg-yw4l">abcd@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-b7b8">EC03</td>
+                            <td class="tg-b7b8">EMP3</td>
+                            <td class="tg-b7b8"></td>
+                            <td class="tg-b7b8"></td>
+                            <td class="tg-b7b8"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-yw4l">EC04</td>
+                            <td class="tg-yw4l">EMP4</td>
+                            <td class="tg-yw4l"></td>
+                            <td class="tg-yw4l">No</td>
+                            <td class="tg-yw4l">abcd@gmail.com</td>
+                        </tr>
+                    </table>
+
+                </div> 
+            </div> 
+        </div> 
+
+        <div id="clear"></div>
+
+
+
+    </div> 
+</body>
+</html>
