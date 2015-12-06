@@ -31,7 +31,6 @@ a {
 	background:	#053350;
 	}
 
-/* ----  COMPANY NAME --------------- */
 #company-name{
 	float:left;
 	font-size:40px;
@@ -40,7 +39,6 @@ a {
 	width:370px;
 	}
 
-/* ------------------------------  MENU  ---- */
 #menu{
 	float:right;
 	height: 30px;
@@ -56,7 +54,7 @@ a {
 #menu a:hover{
 background:#1E90FF url(images/hover-menu-items.png) ; 
 	}
-/* ---------------------------- PREVIEW ------------------------------ */
+
 
 #preview{
 	color:#eee;
@@ -91,9 +89,6 @@ background:#1E90FF url(images/hover-menu-items.png) ;
 	color:#FFF;
 	font-weight: bold;
 	}
-
-
-/* -------------------- ------  CONTENT  -------- ------------------ */
 
 #container{
 	height: 700px;
@@ -138,6 +133,19 @@ background:#1E90FF url(images/hover-menu-items.png) ;
 	height:510px;
 	font-size:14px;
 	float:right;
+	}
+#contentMain{
+	width:980px;
+	margin:10px 10px 10px 0;
+	background: white;
+	height:510px;
+	font-size:14px;
+	float:left;
+	}
+#contentMain h3{
+	padding: 10px 0 10px 20px;
+	font-size: 15px;
+
 	}
 #content h2{
 	padding: 10px 0 10px 20px;
